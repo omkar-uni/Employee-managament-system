@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+*{
+    /* margin : 0; */
+    /* padding : 0; */
+    box-sizing : border-box;
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+  background-color: #111;
+}
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
+#date::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+
